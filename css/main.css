@@ -139,8 +139,8 @@ nav ul p {
 }
 .people {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  gap: 1rem;
   color: white;
   padding: 0.5rem;
 }
@@ -154,6 +154,9 @@ nav ul p {
   aspect-ratio: 1/1;
   border-radius: 3rem;
 }
+.secondary-wrapper img {
+  width: 3.5rem;
+}
 .people h2 {
   font-size: 1.8rem;
   font-weight: bold;
@@ -163,12 +166,10 @@ nav ul p {
   font-size: 1.4rem;
   color: #bac2d9;
 }
-
 .primary-wrapper {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  gap: 2rem;
+  gap: 10rem;
   margin-bottom: 3rem;
 }
 .secondary-wrapper {
