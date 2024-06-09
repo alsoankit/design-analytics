@@ -143,6 +143,7 @@ nav ul p {
   justify-content: space-between;
   color: white;
   padding: 0.5rem;
+  padding-left: 0.8rem;
 }
 .people a {
   background-color: #292b31;
@@ -169,14 +170,14 @@ nav ul p {
 .primary-wrapper {
   display: flex;
   align-items: center;
-  gap: 10rem;
+  justify-content: space-between;
   margin-bottom: 3rem;
 }
 .secondary-wrapper {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 1rem;
+  gap: 2.3rem;
 }
 @media screen and (min-width: 529px) {
   .text-graph .right-col {
